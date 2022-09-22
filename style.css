@@ -62,7 +62,6 @@ body {
     color: #fff ;
     display:flex;
     justify-content: space-between;
-    text-align: center;
     align-items:center;
     padding:5px;
   }
@@ -95,7 +94,30 @@ body {
     font-size: 30px;
   }
 
+  .aboutInfo{
+    box-sizing: border-box;
+    width: 50vw;
+    }
+
+  .about{
+    margin: 10px 0 10px 0;
+  }
+
+  .aboutText{
+    margin: 0px 0 10px 0;
+    text-justify: inter-word;
+  }
 /* directorTwo  */
 
 /* directorThree  */
 
+
+
+/* directorOne  queries*/
+@media screen and (min-width: 360px){
+
+    .aboutInfo{
+        box-sizing: border-box;
+        width: 100vw;
+        }
+}
