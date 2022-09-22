@@ -118,6 +118,66 @@ body {
 
     .aboutInfo{
         box-sizing: border-box;
-        width: 100vw;
+        width: 95vw;
+        text-align: justify;
         }
+}
+
+@media screen and (min-width: 1200px){
+
+  
+  /* INDEX */
+  
+  .mainImage{
+    background-image: url("assets/image4.jpg");
+    padding:30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px 0;
+  }
+  
+  
+  .quote{
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .quoteSource{
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin:10px 0;
+  }
+ 
+ 
+ 
+/* DIRECTOR ONE */
+  
+  
+    .directorOneImage{
+        background-image: url("assets/image6.jpg");
+        padding:25%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:10px 0;
+      }
+
+      .directorOneName{
+        color:rgb(255, 0, 0);
+        justify-content: center;
+        text-align: center;
+        font-size: 100px;
+      }
+
+    .aboutInfo{
+        box-sizing: border-box;
+        width: 50vw;
+        text-align: center;
+        justify-content: center;
+        margin: 0 25%;
+
+    }
 }
