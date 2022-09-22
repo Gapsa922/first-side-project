@@ -3,12 +3,24 @@
     margin:0;
   }
 
-  body {
+body {
     margin:10px;
-    background-color: #b3afaf
+    background-color: #ebe5e5
   }
 
 .topNav{
-    background-color: #8f8c8c;
+    background-color: #a8a1a1;
     color: #fff 
+  }
+
+
+.mainImage{
+    background-image: url("assets/image4.jpg");
+    padding:100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
