@@ -10,17 +10,78 @@ body {
 
 .topNav{
     background-color: #a8a1a1;
-    color: #fff 
+    color: #fff ;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items:center;
+    padding:5px;
   }
 
+  .title{
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+
+  .navLinks{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    
+    
+  }
 
 .mainImage{
     background-image: url("assets/image4.jpg");
     padding:100px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin:10px 0;
+  }
+
+  .quote{
     color:#fff;
-    display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 20px;
   }
+
+  .quoteSource{
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    margin:10px 0;
+  }
+
+
+
+  .footerNav{
+    background-color: #a8a1a1;
+    color: #fff ;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items:center;
+    padding:5px;
+  }
+
+
+  
+
+  .copywright{
+    color: #fff ;
+    padding: 0px;
+    font-size:10px;
+    display: flex;
+
+  }
+
+
+  .footerIcon{
+      width: 20px; 
+  }
+
