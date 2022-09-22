@@ -22,7 +22,7 @@ body {
 
   .title{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
   }
 
@@ -143,6 +143,38 @@ body {
     font-size: 20px;
   }
 
+/* MOVIES */
+
+.imageSocialism{
+    background-image: url("assets/image9.jpg");
+    padding:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px 0;
+
+}
+
+
+.imageNostalguia{
+    background-image: url("assets/image10.jpg");
+    padding:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px 0;
+
+}
+
+.imageHiddenLife{
+    background-image: url("assets/image8.jpg");
+    padding:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px 0;
+
+}
+
+
+
 
 
 /* directorOne  queries*/
@@ -159,6 +191,10 @@ body {
 
   
   /* INDEX */
+
+  .title{
+    font-size: 30px;
+  }
   
   .mainImage{
     background-image: url("assets/image4.jpg");
@@ -236,4 +272,21 @@ body {
     text-align: center;
     font-size: 40px;
   }
+
+
+/* MOVIES */
+
+.flexMovies{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items:center;
+    padding:100px;
+}
+
+.moviesNostalgiaTitle{
+    margin: 10px;
+}
+
+
 }
