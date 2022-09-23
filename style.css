@@ -32,8 +32,38 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: right;
+    cursor:pointer;
+  
   }
 
+
+  a {
+    text-decoration: none;
+    color:white;
+  }
+
+  a:hover {
+    color:rgb(255, 251, 0);
+  }
+
+  .navBarLinks{
+    display:none;
+    font-size:10px;
+    padding:30px;
+  }
+
+  .hoverMe:hover + .navBarLinks{
+    display: block;
+  }
+
+  .navBarLinks:hover{
+    display: block;
+  }
+
+
+
+
+  
 .mainImage{
     background-image: url("assets/image4.jpg");
     padding:100px;
